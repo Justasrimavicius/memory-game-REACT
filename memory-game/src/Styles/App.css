@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+#root{
+    height: 100vh;
+}
+.App{
+    height: 100%;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    gap: 5px;
+}
+.upper-view{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-around;
+   
+}
+.lower-view{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+}
+.color{
+    width: 25%;
+    height: 50%;
+    border: none;
+    background-color: pink;
+}
